@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import UncontrolledForm from './uncontrolledForm';
+import ControlledForm from './controlledForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ControlledForm />
+    <UncontrolledForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
